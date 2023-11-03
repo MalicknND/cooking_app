@@ -3,6 +3,18 @@
     flex-wrap: wrap;
 }
 
+.no-results-message {
+    color: #d9534f; /* Couleur du texte rouge */
+    font-size: 20px; /* Taille de la police */
+    margin: 20px auto; /* Marge au-dessus et en dessous du message */
+    text-align: center; /* Centrage du texte */
+    background-color: #f2dede; /* Couleur de fond pâle */
+    border: 1px solid #d9534f; /* Bordure rouge */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px; /* Remplissage intérieur */
+  }
+  
+  
 .search-container {
     text-align: center; /* Centrer le contenu dans le conteneur */
     margin:55px; /* Espace au-dessus du champ de recherche */
