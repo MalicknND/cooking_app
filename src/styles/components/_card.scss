@@ -1,7 +1,7 @@
 .card-container {
   
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1200px;
    
 } 
 
@@ -12,6 +12,7 @@
   border-radius: 5px; /* Coins arrondis */
   padding-bottom: 10px; /* Espace intérieur de la carte */
   margin: 15px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .card-content {
@@ -28,9 +29,20 @@ h2 {
   font-size: 18px; /* Taille de police du titre */
   padding: 10px;
 }
+h4 {
+  font-size: 14px; /* Taille de police du titre */
+  padding: 10px;
+}
 
 p {
   font-size: 14px; /* Taille de police du texte */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  overflow: hidden;
+  text-align: justify;
+  padding: 10px;
+  margin: 5px;
 }
 
 .source-button {

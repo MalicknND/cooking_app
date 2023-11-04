@@ -1,6 +1,7 @@
 .wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin: 90px;
 }
 
 .no-results-message {
@@ -40,3 +41,9 @@
     }
   }
   
+
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      margin: auto;
+    }
+  }

@@ -7,8 +7,8 @@ const Card = ({ meal }) => {
         <div className="card-content">
           <img src={meal.strMealThumb} alt={meal.strMeal} />
           <h2>{meal.strMeal}</h2>
-          <p>Origine : {meal.strArea}</p>
-
+          <h4>Origine : {meal.strArea}</h4>
+          <p>{meal.strInstructions}</p>
           <button className="source-button">
             <a href={meal.strSource}>Source</a>
           </button>
