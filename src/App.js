@@ -21,7 +21,7 @@ const App = () => {
         {/* Champ d'entrée pour saisir le terme de recherche */}
         <input
           type="text"
-          placeholder="Rechercher..."
+          placeholder="Rechercher en anglais..."
           id="searchInput"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
